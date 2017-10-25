@@ -1,4 +1,9 @@
 body {
+    height: 100;
     background-image: url("images/street.png");
     background-size: cover;
+}
+
+#tina {
+    width: 8em;
 }
