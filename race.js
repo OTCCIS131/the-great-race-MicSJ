@@ -6,12 +6,13 @@ var startButton = new Vue({
     },
 
     methods: {
-        starRace: function (event) {
-            setInterval(() => { this.progressPlayers() }, 100)
+        startRace: function (event) {
+            debugger
+            setInterval(function () { progressPlayers() }, 1000)
         },
 
         progressPlayers: function () {
-            this.tina += Math.random(5 - 1)
+            this.tina += Math.random() * 5
         },
 
     },
