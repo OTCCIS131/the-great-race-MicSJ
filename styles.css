@@ -1,7 +1,8 @@
 body {
-    height: 47vw;
     background-image: url("images/street.jpg");
-    background-size: cover;
+    background-size: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #burger {
