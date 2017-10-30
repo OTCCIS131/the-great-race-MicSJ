@@ -4,6 +4,15 @@ body {
     background-size: cover;
 }
 
+#burger {
+    width: 8em;
+}
+
 #tina {
     width: 8em;
+    padding-top: 13em;
+}
+
+#gene {
+    width: 10em;
 }
