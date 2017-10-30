@@ -3,6 +3,7 @@ var startButton = new Vue({
 
     data: {
         tina: 0,
+        gene: 0,
     },
 
     methods: {
@@ -13,6 +14,7 @@ var startButton = new Vue({
 
         progressPlayers: function () {
             this.tina += Math.random() * 5
+            this.gene += Math.random() * 5
         },
 
     },
