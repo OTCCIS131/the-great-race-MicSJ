@@ -8,7 +8,7 @@ var startButton = new Vue({
 
     methods: {
         startRace: function (event) {
-            setInterval(function () { this.progressPlayers() }, 1000)
+            setInterval(this.progressPlayers, 1000)
         },
 
         progressPlayers: function () {
