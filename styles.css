@@ -1,18 +1,19 @@
 body {
-    height: 100;
-    background-image: url("images/street.png");
+    height: 47vw;
+    background-image: url("images/street.jpg");
     background-size: cover;
 }
 
 #burger {
-    width: 8em;
+    width: 8vw;
+    padding-top: 2vw;
 }
 
 #tina {
-    width: 8em;
-    padding-top: 13em;
+    width: 7vw;
+    padding-top: 11vw;
 }
 
 #gene {
-    width: 10em;
+    width: 9vw;
 }

@@ -12,8 +12,8 @@ var startButton = new Vue({
         },
 
         progressPlayers: function () {
-            this.tina += Math.random() * 5
-            this.gene += Math.random() * 5
+            this.tina += Math.floor(Math.random() * 5)
+            this.gene += Math.floor(Math.random() * 5)
         },
 
     },
@@ -21,7 +21,7 @@ var startButton = new Vue({
     computed: {
         tinaStyles() {
             return {
-                left: $(this.tina)
+                left: $(this.tina)vw
             }
         },
     },
