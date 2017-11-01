@@ -13,8 +13,12 @@ body {
 #tina {
     width: 7vw;
     padding-top: 11vw;
+    position: relative;
+    left: 0vw;
 }
 
 #gene {
     width: 9vw;
+    position: relative;
+    left:0vw;
 }
