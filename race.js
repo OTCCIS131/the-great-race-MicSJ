@@ -3,7 +3,7 @@ var startButton = new Vue({
 
     data: {
         tina: 0,
-        gene: 0,
+        louise: 0,
         interval: 0,
     },
 
@@ -14,14 +14,15 @@ var startButton = new Vue({
 
         progressPlayers: function () {
             this.tina += Math.floor(Math.random() * 5) + 1
-            this.gene += Math.floor(Math.random() * 5) + 1
+            this.louise += Math.floor(Math.random() * 5) + 1
             this.tinaStyles
-            this.geneStyles
-            this.checkVictory
+            this.louiseStyles
+            this.checkVictory()
         },
 
         checkVictory: function () {
-            clearInterval(this.interval)
+            if (this.tina >= 80 || this.louise >= 80)
+                clearInterval(this.interval)
         },
     },
 
@@ -30,8 +31,8 @@ var startButton = new Vue({
             document.getElementById("tina").style.left = this.tina + "vw"
         },
 
-        geneStyles: function () {
-            document.getElementById("gene").style.left = this.gene + "vw"
+        louiseStyles: function () {
+            document.getElementById("louise").style.left = this.louise + "vw"
         },
     },
 })
