@@ -8,11 +8,21 @@ body {
 #burger {
     width: 8vw;
     padding-top: 2vw;
+    float: right;
+}
+
+#gene {
+    padding-left: 30vw;
+}
+
+.btn {
+    display: inline;
+    margin: auto;
 }
 
 #tina {
     width: 15vw;
-    padding-top: 9vw;
+    padding-top: 3vw;
     position: relative;
     left: 0vw;
 }

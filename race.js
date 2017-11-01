@@ -44,7 +44,7 @@ var startButton = new Vue({
             this.tina = 0
             this.louise = 0
             document.getElementById("louise").style.visibility = "visible"
-            document.getElementById("tina").style.visibility = "visble"
+            document.getElementById("tina").style.visibility = "visible"
             this.tinaStyles
             this.louiseStyles
         },
