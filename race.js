@@ -10,7 +10,7 @@ var startButton = new Vue({
     },
 
     methods: {
-        startRace: function (event) {
+        startRace: function (/*event, race*/) {
             this.interval = setInterval(this.progressPlayers, 400)
         },
 
@@ -41,7 +41,12 @@ var startButton = new Vue({
         },
 
         reset: function () {
-
+            this.tina = 0
+            this.louise = 0
+            document.getElementById("louise").style.visibility = "visible"
+            document.getElementById("tina").style.visibility = "visble"
+            this.tinaStyles
+            this.louiseStyles
         },
     },
 
